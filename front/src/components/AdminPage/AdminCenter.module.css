@@ -1,0 +1,31 @@
+td.no-border {
+    border: none;
+}
+
+.tableSelection {
+    margin-bottom: 1%;
+}
+
+.inactiveButton {
+    color: grey;
+}
+.customInput {
+    height: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 1%;
+}
+.activeButton {
+    color: white;
+}
+.greenButton {
+    margin-left: 5%;
+    background-color: rgb(24, 178, 24);
+    border: 0px;
+    color: white;
+}
+.redButton {
+    margin-left: 5%;
+    background-color: rgb(217, 83, 83);
+    color: white;
+}

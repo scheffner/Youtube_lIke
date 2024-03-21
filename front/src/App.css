@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+    min-height: 100%;
+}
+* {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+button {
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+    border-width: solid black 4px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  input {
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid 2px rgb(0, 0, 0) solid;
+    outline: none;
+  }
+
+  table {
+    border-collapse: collapse;
+}
+  
+td, th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+}

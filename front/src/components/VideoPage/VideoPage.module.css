@@ -1,0 +1,126 @@
+.MainContainer {
+
+}
+.Primary {
+    float: left;
+    margin-left: 10px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.Secondary {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 22%;
+    margin-left: 10px;
+    border: solid;
+    border-radius: 10px;
+    border-color: darkgray;
+    border-width: 2px;
+    float: right;
+}
+.Title {
+    font-size: 15px;
+}
+.VideoContainer{
+    width: auto; 
+    height: auto;
+}
+.Video {
+    padding-top: 56.25%;
+    position: relative;
+}
+.react-player > div {
+    position: absolute; 
+  }
+
+.VideoLinks {
+    display: flex;
+    width: 50%;
+    margin-bottom: 8px;
+}
+
+.UserInfo {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border-bottom: 5px;
+}
+.UserInfo > p{
+    margin: 0 10px;
+}
+
+.userimg {
+    border-radius: 50%;
+    width:60px;
+    height: 60px;
+}
+
+.VideoButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.VideoButton > button {
+    margin: 0 10px;
+}
+
+.Description {
+    border: solid;
+    border-radius: 10px;
+    border-color: darkgray;
+    border-width: 2px;
+    width: 75%;
+    height: fit-content;
+    margin-bottom: 5px;
+}
+.CommentsList {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.Comments {
+    border: solid;
+    border-radius: 10px;
+    border-color: darkgray;
+    border-width: 2px;
+    border-radius: 10px;
+    width: 75%;
+    height: 300px;
+    flex: content;
+}
+p {
+    font-size: 10px;
+  }
+
+.AddComment > input {
+    height: 3vh;
+    margin: 15px;
+    width: 80%;
+    border: 0px;
+    border-bottom: solid 3px black;
+}
+.CommentContainer {
+    padding-left: 2%;
+    display: flex;
+    flex-direction: row;
+    min-width: 90%;
+    min-height: 90%;
+}
+.CommentContainer > p {
+    font-size: medium;
+}
+.CommentContainer > img {
+    margin-top: 10px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 15px;
+}
+.CommentText {
+    min-width: 90%;
+    min-height: 90%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    flex-direction: column;
+}

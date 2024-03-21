@@ -1,0 +1,11 @@
+.mainDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.formMain {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

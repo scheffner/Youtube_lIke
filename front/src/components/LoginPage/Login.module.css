@@ -1,0 +1,119 @@
+html {
+    background: white;
+}
+.body {
+    display: flex;  
+}
+.divContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.divContainer > * {
+    filter: blur(14px);
+    z-index: -1;
+}
+.divContainer > img {
+    width: 60vh;
+    height: 40vh;
+    filter: blur(0);
+    z-index: 3;
+}
+
+.section {
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 3%;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: black;
+    background-color: transparent;
+    filter: blur(0);
+    z-index: 3;
+}
+.section > p {
+    font-size: medium;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+.a, .a:visited {
+    color: rgb(0, 0, 0);
+}
+
+.input[type="text"],
+.input[type="password"],
+.button,
+.textarea {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    padding: 0.25rem;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border: 3px solid;
+    border-radius: 13px;
+    
+}
+
+.label,
+.button {
+  margin-top: 1rem;
+}
+
+.button {
+    width: 33%;
+    align-items: center;
+  padding: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
